@@ -71,10 +71,10 @@
                 </a>
                 <button id="theme-toggle" data-tooltip-target="tooltip-toggle" type="button"
                     class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5">
-                    <?php if (isset($component)) { $__componentOriginalf4f76ed950dd13b92a03d5b066501acc = $component; } ?>
-<?php if (isset($attributes)) { $__attributesOriginalf4f76ed950dd13b92a03d5b066501acc = $attributes; } ?>
-<?php $component = Illuminate\View\AnonymousComponent::resolve(['view' => 'components.icons.theme','data' => []] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? (array) $attributes->getIterator() : [])); ?>
-<?php $component->withName('icons.theme'); ?>
+                   <?php if (isset($component)) { $__componentOriginal3b0952b1af0af179223fd565e8b78a06 = $component; } ?>
+<?php if (isset($attributes)) { $__attributesOriginal3b0952b1af0af179223fd565e8b78a06 = $attributes; } ?>
+<?php $component = Illuminate\View\AnonymousComponent::resolve(['view' => 'components.icons.theme-switch','data' => []] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? (array) $attributes->getIterator() : [])); ?>
+<?php $component->withName('icons.theme-switch'); ?>
 <?php if ($component->shouldRender()): ?>
 <?php $__env->startComponent($component->resolveView(), $component->data()); ?>
 <?php if (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag && $constructor = (new ReflectionClass(Illuminate\View\AnonymousComponent::class))->getConstructor()): ?>
@@ -83,22 +83,17 @@
 <?php $component->withAttributes([]); ?>
 <?php echo $__env->renderComponent(); ?>
 <?php endif; ?>
-<?php if (isset($__attributesOriginalf4f76ed950dd13b92a03d5b066501acc)): ?>
-<?php $attributes = $__attributesOriginalf4f76ed950dd13b92a03d5b066501acc; ?>
-<?php unset($__attributesOriginalf4f76ed950dd13b92a03d5b066501acc); ?>
+<?php if (isset($__attributesOriginal3b0952b1af0af179223fd565e8b78a06)): ?>
+<?php $attributes = $__attributesOriginal3b0952b1af0af179223fd565e8b78a06; ?>
+<?php unset($__attributesOriginal3b0952b1af0af179223fd565e8b78a06); ?>
 <?php endif; ?>
-<?php if (isset($__componentOriginalf4f76ed950dd13b92a03d5b066501acc)): ?>
-<?php $component = $__componentOriginalf4f76ed950dd13b92a03d5b066501acc; ?>
-<?php unset($__componentOriginalf4f76ed950dd13b92a03d5b066501acc); ?>
+<?php if (isset($__componentOriginal3b0952b1af0af179223fd565e8b78a06)): ?>
+<?php $component = $__componentOriginal3b0952b1af0af179223fd565e8b78a06; ?>
+<?php unset($__componentOriginal3b0952b1af0af179223fd565e8b78a06); ?>
 <?php endif; ?>
                 </button>
 
 
-                <div id="tooltip-toggle" role="tooltip"
-                    class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip">
-                    Toggle dark mode
-                    <div class="tooltip-arrow" data-popper-arrow></div>
-                </div>
                 <!-- Profile -->
                 <div class="flex items-center ml-3">
                     <div>
