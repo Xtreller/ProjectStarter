@@ -20,7 +20,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-## Design - Flowbite Drawer(aside) Layout 
+## Design - <h1>Flowbite</h1>
 
 
-<a href="https://flowbite.com/docs/components/drawer/#drawer-navigation"><img src="https://flowbite.com/docs/images/logo.svg" alt="Build Status"><h1>Flowbite</h1></a>
+<a href="https://flowbite.com/docs/components/drawer/#drawer-navigation"><img src="https://flowbite.com/docs/images/logo.svg" alt="Build Status">Flowbite Drawer(aside) Layout <h1>Flowbite</h1></a>
