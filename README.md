@@ -22,4 +22,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Design - Flowbite Drawer(aside) Layout 
 
-<a href="https://flowbite.com/docs/components/drawer/#drawer-navigation"><img src="https://flowbite.com/docs/images/logo.svg" alt="Build Status"></a>
+
+<a href="https://flowbite.com/docs/components/drawer/#drawer-navigation"><img src="https://flowbite.com/docs/images/logo.svg" alt="Build Status"><h1>Flowbite</h1></a>
